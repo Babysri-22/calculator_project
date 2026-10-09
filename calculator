@@ -1,0 +1,10 @@
+public class Calculator {
+    public static void main(String[] args) {
+        int a = 20, b = 10;
+
+        System.out.println("Add: " + (a + b));
+        System.out.println("Sub: " + (a - b));
+        System.out.println("Mul: " + (a * b));
+        System.out.println("Div: " + (b != 0 ? (double) a / b : "Error"));
+    }
+}
